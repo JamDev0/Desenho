@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Desenhante</title>
+</head>
+<body>
+    <canvas id="Tela"></canvas>
+    <div id="Formas">
+        <input type="button" id='IT' onclick="Desenhar('Triangulo')">
+        <label for="IT"><canvas id='Triangulo' class="Formas" width="70px" height="70px"></canvas></label>
+
+        <input type="button" id='IR' onclick="Desenhar('Retangulo')">
+        <label for="IR"><canvas id="Retangulo" class="Formas" width="70px" height="70px"></canvas></label>
+
+        <input type="button" id='IC' onclick="Desenhar('Circulo')">
+        <label for="IC"><canvas id="Circulo" class="Formas" width="70px" height="70px"></canvas></label>
+
+        <input type="color" id="Cor">
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

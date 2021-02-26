@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+}
+
+#Tela
+{
+    position: absolute;
+    background-color: rgb(211, 212, 197);
+}
+
+#Formas
+{
+    position: absolute;
+}
+
+.Formas
+{
+    position: relative;
+    background-color: rgb(212, 77, 104);
+    border-width: 3px;
+    border-color: rgb(39, 26, 29);
+    border-style: solid;
+    cursor: pointer;
+}
+
+#IT
+{
+    display: none;
+}
+
+#IR
+{
+    display: none;
+}
+
+#IC
+{
+    display: none;
+}
